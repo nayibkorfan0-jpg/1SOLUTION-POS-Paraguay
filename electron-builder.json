@@ -1,0 +1,58 @@
+{
+  "appId": "com.1solution.carwash-pos",
+  "productName": "1SOLUTION",
+  "description": "Sistema POS para Lavaderos de Autos - Paraguay",
+  "author": "Nayib Korfan <nayib@1solution.com.py>",
+  "copyright": "© 2025 1SOLUTION S.R.L - BY NAYIB KORFAN",
+  "main": "electron/main.js",
+  "directories": {
+    "output": "dist-electron"
+  },
+  "files": [
+    "dist/**/*",
+    "electron/main.js",
+    "shared/**/*",
+    "node_modules/better-sqlite3/**/*"
+  ],
+  "extraMetadata": {
+    "main": "electron/main.js",
+    "description": "Sistema POS para Lavaderos de Autos - Paraguay",
+    "author": "Nayib Korfan <nayib@1solution.com.py>"
+  },
+  "win": {
+    "target": [
+      {
+        "target": "nsis",
+        "arch": ["x64"]
+      },
+      {
+        "target": "portable",
+        "arch": ["x64"]
+      }
+    ],
+    "icon": "assets/icon.ico",
+    "artifactName": "${productName}-Setup-${version}-${arch}.${ext}",
+    "publisherName": "1SOLUTION S.R.L"
+  },
+  "nsis": {
+    "oneClick": false,
+    "perMachine": false,
+    "allowElevation": true,
+    "allowToChangeInstallationDirectory": true,
+    "installerIcon": "assets/icon.ico",
+    "uninstallerIcon": "assets/icon.ico",
+    "installerHeaderIcon": "assets/icon.ico",
+    "createDesktopShortcut": true,
+    "createStartMenuShortcut": true,
+    "shortcutName": "1SOLUTION POS",
+    "artifactName": "${productName}-Setup-${version}-${arch}.${ext}",
+    "include": "electron/installer.nsh",
+    "language": "3082"
+  },
+  "npmRebuild": true,
+  "nodeGypRebuild": true,
+  "buildDependenciesFromSource": false,
+  "asarUnpack": [
+    "node_modules/better-sqlite3/**/*"
+  ]
+}
