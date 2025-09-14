@@ -1,0 +1,43 @@
+1SOLUTION - Sistema POS para Lavaderos
+Copyright (c) 2024 1SOLUTION
+
+LICENCIA DE SOFTWARE PROPIETARIO
+
+Este software y toda la documentación asociada (el "Software") son propiedad de 1SOLUTION y están protegidos por las leyes de derechos de autor y tratados internacionales.
+
+TÉRMINOS DE LA LICENCIA:
+
+1. CONCESIÓN DE LICENCIA
+   Se le concede una licencia limitada, no exclusiva e intransferible para usar este Software únicamente para los fines comerciales autorizados de su empresa de lavado de vehículos.
+
+2. RESTRICCIONES
+   No puede:
+   - Copiar, modificar, distribuir o crear trabajos derivados del Software
+   - Realizar ingeniería inversa, descompilar o desarmar el Software
+   - Alquilar, arrendar, prestar o transferir el Software a terceros
+   - Usar el Software para propósitos ilegales o no autorizados
+
+3. PROPIEDAD INTELECTUAL
+   Todos los derechos, títulos e intereses en el Software permanecen con 1SOLUTION. Esta licencia no le otorga ningún derecho de propiedad intelectual.
+
+4. CUMPLIMIENTO FISCAL
+   El Software incluye funcionalidades específicas para el cumplimiento de las regulaciones fiscales paraguayas. El usuario es responsable de asegurar el cumplimiento adecuado con todas las leyes aplicables.
+
+5. GARANTÍA LIMITADA
+   El Software se proporciona "TAL COMO ESTÁ" sin garantías de ningún tipo. 1SOLUTION no garantiza que el Software esté libre de errores o funcione sin interrupciones.
+
+6. LIMITACIÓN DE RESPONSABILIDAD
+   En ningún caso 1SOLUTION será responsable por daños directos, indirectos, incidentales, especiales o consecuentes que resulten del uso del Software.
+
+7. SOPORTE Y ACTUALIZACIONES
+   El soporte técnico y las actualizaciones están disponibles según los términos del contrato de servicio separado.
+
+8. TERMINACIÓN
+   Esta licencia es efectiva hasta que sea terminada. Sus derechos bajo esta licencia terminarán automáticamente sin aviso si no cumple con estos términos.
+
+Para soporte técnico o consultas sobre licencias:
+Email: soporte@1solution.com.py
+Teléfono: +595 21 123-4567
+Sitio web: https://1solution.com.py
+
+Copyright (c) 2024 1SOLUTION. Todos los derechos reservados.
